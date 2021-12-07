@@ -1,4 +1,3 @@
-import styles from "../styles/style.scss";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

@@ -39,7 +39,6 @@ const Business_fixedphrase = () => {
           <p>メール内容:</p>
           <textarea
             value={data.content}
-            type="text"
             onChange={handleChange}
             name="content"
           ></textarea>
