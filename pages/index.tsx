@@ -13,6 +13,9 @@ const Home = () => {
       >
         <a>ビジネス文章ジェネレーター</a>
       </Link>
+      <Link href={`./htmltag_generator`} as={`./htmltag_generator`} passHref>
+        <a>HTMLタグジェネレーター</a>
+      </Link>
     </div>
   );
 }
